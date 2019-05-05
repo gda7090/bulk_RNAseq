@@ -1,0 +1,144 @@
+Lib         == /NJPROJ2/MICRO/share/MetaGenome_pipeline/MetaGenome_pipeline_V5.1/lib
+Bin         == /NJPROJ2/MICRO/share/MetaGenome_pipeline/MetaGenome_pipeline_V5.1/bin
+Software    == /NJPROJ2/MICRO/share/MetaGenome_pipeline/MetaGenome_pipeline_V5.1/software
+Database    == /NJPROJ2/MICRO/share/MetaGenome_pipeline/MetaGenome_pipeline_V5.1/Database
+
+## 0) others
+CDHIT			   = Software/cd-hit-v4.5.8
+COLORLIST          = Lib/05.Function/lib/ARDB/lib/03.Pic/test.color.xls2
+SAM				   = Software/samtools/samtools-1.3/samtools
+Bowtie             = /NJPROJ2/MICRO/share/software/bowtie2-2.2.4/bowtie2
+Bowtie_bulid	   = /NJPROJ2/MICRO/share/software/bowtie2-2.2.4/bowtie2-build
+SAM_ZH             = /NJPROJ2/MICRO/PROJ/zhanghao/software/samtools-1.3/samtools
+Bowtie_ZH          = /NJPROJ2/MICRO/PROJ/zhanghao/software/bowtie2-2.2.4/bowtie2
+Bowtie_bulid_ZH    = /NJPROJ2/MICRO/PROJ/zhanghao/software/bowtie2-2.2.4/bowtie2-build
+QC_MAIN            = perl Lib/01.QC/MetaGenomics.QC.v3.pl
+ASSEMBLY_MAIN      = perl Lib/02.Assembly/Assembly.pl
+ASSEMBLY_MAIN_ZH   = perl Lib/02.Assembly/Assembly.zh.pl
+UNIQ_MAIN          = perl Lib/00.Commbin/02.UniqSeq/Uniseq_v0.1.pl
+TAX_MAIN           = perl Lib/04.Taxonomy/TaxAnnotationFlow.pl
+GENE_MAIN          = perl Lib/03.Gene_Prediction/metagenemark_script.pl
+FUN_MAIN           = perl Lib/05.Function/FunctionAnnotationFlow.pl
+RM_MAIN_ZH         = perl Lib/00.Commbin/01.MGsoap/reads_mapping.zh.pl
+RM_MAIN            = perl Lib/00.Commbin/01.MGsoap/reads_mapping.pl
+CO_MAIN            = perl Lib/00.Commbin/Correlation/spearman.correlation.pl
+COLORLIST          = Lib/05.Function/lib/ARDB/lib/03.Pic/test.color.xls2   
+REPORT             = perl Lib/00.Commbin/get_report.pl
+RESULT             = perl Lib/00.Commbin/get_result.pl
+B_dir              = Lib/00.Commbin/qsub
+NODE_text          = Lib/00.Commbin/compute-node.txt
+SUPER_WORK         = perl Lib/00.Commbin/super_worker.pl --qalter --cyqt 1 --maxjob 200 --sleept 600 
+SH_CONTRAL         = perl Lib/00.Commbin/sh_contral.pl
+SH_CONTRAL2        = perl Lib/00.Commbin/TriggerAgent.pl --all
+SVG_Lib            = Lib/00.Commbin/5.8.8
+SVG2XXX            = Software/svg2xxx_release/svg2xxx 
+Rscript            = /NJPROJ2/MICRO/share/software/Anaconda/anaconda2/envs/r.3.4.3/bin/Rscript
+R                  = /NJPROJ2/MICRO/share/software/Anaconda/anaconda2/envs/r.3.4.3/bin/R
+R2                 = /NJPROJ2/MICRO/share/software/Anaconda/anaconda2/envs/r.3.4.3/bin/R
+R3                 = /NJPROJ2/MICRO/share/software/Anaconda/anaconda2/envs/r.3.4.3/bin/R
+R4                 = /NJPROJ2/MICRO/share/software/Anaconda/anaconda2/envs/r.3.4.3/bin/R
+R5                 = /NJPROJ2/MICRO/share/software/Anaconda/anaconda2/envs/r.3.4.3/bin/Rscript
+R6                 = /NJPROJ2/MICRO/share/software/Anaconda/anaconda2/envs/r.3.4.3/bin/R
+MATH_COMB          = /NJPROJ2/RNA_S/personal_dir/lindan/SHOUHOU/P101SC17111985-01-JinShanHospital/customDraw/Fig4_venn/V_D_J_gene_Venn/lib/
+COMB_FIG           = perl Lib/03.Gene_Prediction/lib/venn/combine_fig.pl
+METASTATS          = perl Lib/00.Commbin/MetaStats/Metastat_boxplot.pl
+SPEARMAN           = perl Lib/00.Commbin/Correlation/correlation_coefficient.pl
+Software
+SAMPLE_DRAW        = perl Lib/00.Commbin/sample_draw.pl
+USEARCH            = /NJPROJ2/MICRO/share/software/Usearch/usearch7.0.1001_i86linux32
+USEARCHH           = /NJPROJ2/MICRO/share/software/Usearch/usearch5.2.32_i86linux32
+Mail_Lib           = /NJPROJ2/MICRO/share/MetaGenome_pipeline/MetaGenome_pipeline_V5.0/lib/00.Commbin/perl/perl5
+GNUPLOT            = /NJPROJ2/MICRO/share/MetaGenome_pipeline/Software/gnuplot-4.6.5/bin/gnuplot
+CIRCOS             = /NJPROJ2/MICRO/share/software/Graphics/circos-0.64/bin/circos
+
+## 1) QC, read_fq, fqcheck
+ReadFQ    =  Software/QC/readfq.v8_meta
+Fqcheck   =  Software/QC/fqcheck
+SOAP      =  Software/QC/soap2.21/soap2.21
+SOAPINDEX =  Software/QC/soap2.21/2bwt-builder
+BWA       =  Software/QC/bwa-0.7.10/bwa
+HUMAN     =  Database/hg19/hg19.fa.index
+
+## 2) Assembly
+SOAPDENOVO         = Software/Assembly/SOAPdenovo-63mer
+SOAPDENOVO63M      = Software/Assembly/SOAPdenovo-63mer
+SOAPDENOVO127M     = Software/Assembly/SOAPdenovo-127mer
+SS                 = Software/Assembly/ss.o
+IDBA_UD            = Software/Assembly/IDBA_UD/idba_ud-1.0.9/bin/idba_ud
+IU_FQ2FA           = Software/Assembly/IDBA_UD/idba_ud-1.0.9/bin/fq2fa
+MEGAHIT            = Software/Assembly/megahit-master/megahit
+
+## 3) Taxonomy
+#GI2TAXID   = Database/MicroNR/gi_taxid_prot.dmp
+#NAMES      = Database/MicroNR/names.dmp
+#NODES      = Database/MicroNR/nodes.dmp
+#MicroNR    = Database/MicroNR/AFVB.nr.fa
+#MicroNR2   = Database/MicroNR/diamond/AFVB.nr
+GI2TAXID   = Database/NR_20180118/Taxonomy_pro_20180118/gi_taxid_prot.dmp
+NAMES      = Database/NR_20180118/Taxonomy_pro_20180118/names.dmp
+NODES      = Database/NR_20180118/Taxonomy_pro_20180118/nodes.dmp
+MicroNR    = Database/MicroNR_20180102/AFVB.nr.fa
+MicroNR2   = Database/MicroNR_20180102/diamond/AFVB.nr
+NR		   = Database/NR_20180118/nr.final.fa
+NR2		   = Database/NR_20180118/diamond/nr
+
+## 4) Function
+ARDB         = Database/ARDB/diamond/ardb_uniq.fa
+BLAST        = Software/Function/blastall
+DIAMOND      = Software/Function/DIAMOND/diamond
+
+CAZY         = Database/CAZy_20180504/CAZy.2018.fa
+CAZY2        = Database/CAZy_20180504/CAZy.2018
+CAZY_LEN     = Database/CAZy_20180504/CAZy.2018.fa.len
+CAZY_ANNO    = Database/CAZy_20180504/CAZy.2018.anno.xls
+
+EGGNOG       = Database/eggNOGv4.1/files/eggnog4.anno.fa
+EGGNOG2      = Database/eggNOGv4.1/files/diamond/eggnog4.anno
+NOG_LEN      = Database/eggNOGv4.1/files/eggnog4.anno.fa.len.info
+NOG_ANNO     = Database/eggNOGv4.1/files/eggnog4.anno.xls
+NOG_TAX      = Database/eggNOGv4.1/files/eggnog4.taxonomy.xls
+NOG_TREE     = Database/eggNOGv4.1/files/tree.html/
+NOG_ANNO2    = Database/eggNOGv4.1/files/NOG.annotations.tsv 
+EGGNOG4.5    = Database/eggNOGv4.5/eggnog4.5.anno.fa
+EGGNOG4.5_D  = Database/eggNOGv4.5/eggnog4.5.anno
+EGGNOG4.5_ANNO2  = Database/eggNOGv4.5/NOG.annotations.tsv
+EGGNOG4.5_LEN   = Database/eggNOGv4.5/eggnog4.5.anno.fa.len.info
+EGGNOG4.5_ANNO   = Database/eggNOGv4.5/eggnog4.5.anno.xls
+
+
+KEGG         = Database/KEGG_NEW20180101/kegg_gene.fa
+KEGG2        = Database/KEGG_NEW20180101/diamond/kegg_gene
+KEGG_ANNO    = Database/KEGG_NEW20180101/kegg_gene_ec_ko_module_pathway.stat.xls
+MAP_PNG_DIR  = Database/KEGG_NEW20180101/pathway_map/
+MAP_HTMP_DIR = Database/KEGG_NEW20180101/pathway_html/
+KEGG_CSS     = Database/KEGG_NEW20180101/base.css
+KEGG_LOGO    = Database/KEGG_NEW20180101/logo.png
+KEGG_LEN     = Database/KEGG_NEW20180101/kegg_gene.fa.len.info
+
+YAPE_HTML    = Software/perl/YAPE-HTML-1.11/lib/perl5/site_perl/5.18.2/
+IMAGE_SIZE   = Software/perl/Image-Size-3.300/lib/
+CARD_ACTIVATE = /NJPROJ2/MICRO/share/MetaGenome_pipeline/MetaGenome_pipeline_V5.1/software/Anaconda/anaconda2/bin/activate
+
+## 7) Advanced Analysis
+GET_LEN            = perl Lib/00.Commbin/get_len_fa.pl
+LINE_DIAGRAM       = perl Lib/00.Commbin/line_diagram.pl
+GENE_STA           = perl Lib/00.Commbin/static_genepedict.pl
+PCA_CLUSTER        = perl Lib/00.Commbin/PCA/PCAcluster.pl
+PCA_R              = perl Lib/00.Commbin/PCA/PCA.R.pl
+PCoA_ClUSTER       = perl Lib/00.Commbin/PCoA/PCoAclust.pl
+RUN_NMDS           = perl Lib/00.Commbin/NMDS/Run_NMDS.pl
+NMDS_R             = perl Lib/00.Commbin/NMDS/NMDS.R.pl
+ANOSIM             = perl Lib/00.Commbin/Anosim/Anosim_analysis.pl
+HEATMAP            = perl Lib/00.Commbin/heatmap/plot_heatmap.pl
+GET_TABLE_HEAD2    = perl Lib/00.Commbin/top10/get_table_head2.pl
+GET_TABLE_HEAD3    = perl Lib/00.Commbin/top10/get_table_head2.no.others.pl
+BAR_DIAGRAM        = perl Lib/00.Commbin/top10/bar_diagram.pl
+DRAW_TREE          = perl Lib/00.Commbin/cluster/draw_tree.pl
+DRAW_TREE2         = perl Lib/00.Commbin/cluster/draw_tree2.pl
+TREE               = perl Lib/00.Commbin/cluster/cluster.pl -BC
+LEFSE              = /NJPROJ2/MICRO/share/software/lefse/nsegata-lefse-1cd4f0f8e6cf
+LDA_ROC            = perl Lib/00.Commbin/LDA_ROC/run_LDA_ROC.pl
+IDENTIFY		   = /usr/bin/identify
+CONVERT            = /usr/bin/convert
+TRAN_TAB           = perl Lib/00.Commbin/get_table_tran.pl
+TRAN_TAB2          = perl Lib/00.Commbin/get_table_tran.noothers.pl

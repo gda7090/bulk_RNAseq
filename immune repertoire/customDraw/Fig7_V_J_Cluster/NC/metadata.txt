@@ -1,0 +1,7 @@
+#file.name	sample.id	tag1
+NC1.specifc.clones.txt	NC1	NC1
+NC2.specifc.clones.txt	NC2	NC2
+NC3.specifc.clones.txt	NC3	NC3
+NC4.specifc.clones.txt	NC4	NC4
+NC5.specifc.clones.txt	NC5	NC5
+NC6.specifc.clones.txt	NC6	NC6

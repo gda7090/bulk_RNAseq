@@ -1,0 +1,194 @@
+Executing com.antigenomics.vdjtools.basic.CalcSegmentUsage -m metadata.txt -p -f tag1 -n out/2
+[Tue Jan 08 14:46:21 CST 2019 CalcSegmentUsage] Reading samples
+[Tue Jan 08 14:46:42 CST 2019 CalcSegmentUsage] 6 samples loaded
+[Tue Jan 08 14:46:45 CST 2019 SampleStreamConnection] Loading sample HT1
+[Tue Jan 08 14:46:51 CST 2019 ClonotypeStreamParser] Finished parsing 5828 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 14:46:51 CST 2019 SampleStreamConnection] Loaded sample HT1 with 5828 clonotypes and 36768981 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 14:46:51 CST 2019 SegmentUsage] Processing sample HT1
+[Tue Jan 08 14:46:51 CST 2019 SampleStreamConnection] Loading sample HT2
+[Tue Jan 08 14:46:52 CST 2019 ClonotypeStreamParser] Finished parsing 11392 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 14:46:52 CST 2019 SampleStreamConnection] Loaded sample HT2 with 11392 clonotypes and 95085541 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 14:46:52 CST 2019 SegmentUsage] Processing sample HT2
+[Tue Jan 08 14:46:52 CST 2019 SampleStreamConnection] Loading sample HT3
+[Tue Jan 08 14:46:54 CST 2019 ClonotypeStreamParser] Finished parsing 7029 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 14:46:54 CST 2019 SampleStreamConnection] Loaded sample HT3 with 7029 clonotypes and 24706935 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 14:46:54 CST 2019 SegmentUsage] Processing sample HT3
+[Tue Jan 08 14:46:54 CST 2019 SampleStreamConnection] Loading sample HT4
+[Tue Jan 08 14:46:57 CST 2019 ClonotypeStreamParser] Finished parsing 8044 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 14:46:57 CST 2019 SampleStreamConnection] Loaded sample HT4 with 8044 clonotypes and 53642426 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 14:46:57 CST 2019 SegmentUsage] Processing sample HT4
+[Tue Jan 08 14:46:57 CST 2019 SampleStreamConnection] Loading sample HT5
+[Tue Jan 08 14:47:02 CST 2019 ClonotypeStreamParser] Finished parsing 8626 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 14:47:02 CST 2019 SampleStreamConnection] Loaded sample HT5 with 8626 clonotypes and 57048789 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 14:47:02 CST 2019 SegmentUsage] Processing sample HT5
+[Tue Jan 08 14:47:02 CST 2019 SampleStreamConnection] Loading sample HT6
+[Tue Jan 08 14:47:04 CST 2019 ClonotypeStreamParser] Finished parsing 7377 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 14:47:04 CST 2019 SampleStreamConnection] Loaded sample HT6 with 7377 clonotypes and 27794626 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 14:47:04 CST 2019 SegmentUsage] Processing sample HT6
+[RUtil] Executing Rscript vexpr_plot.r out/2.segments.wt.V.txt 89 0 2 TRUE out/2.segments.wt.V.pdf
+null device 
+          1 
+[RUtil] Executing Rscript vexpr_plot.r out/2.segments.wt.J.txt 47 0 2 TRUE out/2.segments.wt.J.pdf
+null device 
+          1 
+[Tue Jan 08 14:52:04 CST 2019 CalcSegmentUsage] Finished
+Executing com.antigenomics.vdjtools.basic.CalcSegmentUsage -m metadata.txt -p -f tag1 -n out/2
+[Tue Jan 08 14:52:46 CST 2019 CalcSegmentUsage] Reading samples
+[Tue Jan 08 14:52:59 CST 2019 CalcSegmentUsage] 6 samples loaded
+[Tue Jan 08 14:53:00 CST 2019 SampleStreamConnection] Loading sample GD1
+[Tue Jan 08 14:53:02 CST 2019 ClonotypeStreamParser] Finished parsing 8650 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 14:53:02 CST 2019 SampleStreamConnection] Loaded sample GD1 with 8650 clonotypes and 53733366 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 14:53:02 CST 2019 SegmentUsage] Processing sample GD1
+[Tue Jan 08 14:53:02 CST 2019 SampleStreamConnection] Loading sample GD2
+[Tue Jan 08 14:53:08 CST 2019 ClonotypeStreamParser] Finished parsing 8615 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 14:53:08 CST 2019 SampleStreamConnection] Loaded sample GD2 with 8615 clonotypes and 50736421 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 14:53:08 CST 2019 SegmentUsage] Processing sample GD2
+[Tue Jan 08 14:53:08 CST 2019 SampleStreamConnection] Loading sample GD3
+[Tue Jan 08 14:53:11 CST 2019 ClonotypeStreamParser] Finished parsing 4292 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 14:53:11 CST 2019 SampleStreamConnection] Loaded sample GD3 with 4292 clonotypes and 26548648 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 14:53:11 CST 2019 SegmentUsage] Processing sample GD3
+[Tue Jan 08 14:53:11 CST 2019 SampleStreamConnection] Loading sample GD4
+[Tue Jan 08 14:53:13 CST 2019 ClonotypeStreamParser] Finished parsing 5937 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 14:53:14 CST 2019 SampleStreamConnection] Loaded sample GD4 with 5937 clonotypes and 38819349 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 14:53:14 CST 2019 SegmentUsage] Processing sample GD4
+[Tue Jan 08 14:53:14 CST 2019 SampleStreamConnection] Loading sample GD5
+[Tue Jan 08 14:53:17 CST 2019 ClonotypeStreamParser] Finished parsing 6529 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 14:53:17 CST 2019 SampleStreamConnection] Loaded sample GD5 with 6529 clonotypes and 43870338 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 14:53:17 CST 2019 SegmentUsage] Processing sample GD5
+[Tue Jan 08 14:53:17 CST 2019 SampleStreamConnection] Loading sample GD6
+[Tue Jan 08 14:53:18 CST 2019 ClonotypeStreamParser] Finished parsing 4986 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 14:53:18 CST 2019 SampleStreamConnection] Loaded sample GD6 with 4986 clonotypes and 33401892 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 14:53:18 CST 2019 SegmentUsage] Processing sample GD6
+[RUtil] Executing Rscript vexpr_plot.r out/2.segments.wt.V.txt 72 0 2 TRUE out/2.segments.wt.V.pdf
+null device 
+          1 
+[RUtil] Executing Rscript vexpr_plot.r out/2.segments.wt.J.txt 18 0 2 TRUE out/2.segments.wt.J.pdf
+null device 
+          1 
+[Tue Jan 08 14:55:45 CST 2019 CalcSegmentUsage] Finished
+Executing com.antigenomics.vdjtools.basic.CalcSegmentUsage -m metadata.txt -p -f tag1 -n out/2
+[Tue Jan 08 14:56:17 CST 2019 CalcSegmentUsage] Reading samples
+[Tue Jan 08 14:56:26 CST 2019 CalcSegmentUsage] 6 samples loaded
+[Tue Jan 08 14:56:26 CST 2019 SampleStreamConnection] Loading sample GD7
+[Tue Jan 08 14:56:27 CST 2019 ClonotypeStreamParser] Finished parsing 8729 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 14:56:27 CST 2019 SampleStreamConnection] Loaded sample GD7 with 8729 clonotypes and 63780195 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 14:56:27 CST 2019 SegmentUsage] Processing sample GD7
+[Tue Jan 08 14:56:27 CST 2019 SampleStreamConnection] Loading sample GD8
+[Tue Jan 08 14:56:28 CST 2019 ClonotypeStreamParser] Finished parsing 9568 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 14:56:28 CST 2019 SampleStreamConnection] Loaded sample GD8 with 9568 clonotypes and 65208312 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 14:56:28 CST 2019 SegmentUsage] Processing sample GD8
+[Tue Jan 08 14:56:28 CST 2019 SampleStreamConnection] Loading sample GD9
+[Tue Jan 08 14:56:31 CST 2019 ClonotypeStreamParser] Finished parsing 7843 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 14:56:31 CST 2019 SampleStreamConnection] Loaded sample GD9 with 7843 clonotypes and 62099127 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 14:56:31 CST 2019 SegmentUsage] Processing sample GD9
+[Tue Jan 08 14:56:31 CST 2019 SampleStreamConnection] Loading sample GD10
+[Tue Jan 08 14:56:35 CST 2019 ClonotypeStreamParser] Finished parsing 9292 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 14:56:35 CST 2019 SampleStreamConnection] Loaded sample GD10 with 9292 clonotypes and 69651177 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 14:56:35 CST 2019 SegmentUsage] Processing sample GD10
+[Tue Jan 08 14:56:35 CST 2019 SampleStreamConnection] Loading sample GD11
+[Tue Jan 08 14:56:38 CST 2019 ClonotypeStreamParser] Finished parsing 6918 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 14:56:38 CST 2019 SampleStreamConnection] Loaded sample GD11 with 6918 clonotypes and 35440202 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 14:56:38 CST 2019 SegmentUsage] Processing sample GD11
+[Tue Jan 08 14:56:38 CST 2019 SampleStreamConnection] Loading sample GD12
+[Tue Jan 08 14:56:41 CST 2019 ClonotypeStreamParser] Finished parsing 8120 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 14:56:41 CST 2019 SampleStreamConnection] Loaded sample GD12 with 8120 clonotypes and 56539948 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 14:56:41 CST 2019 SegmentUsage] Processing sample GD12
+[RUtil] Executing Rscript vexpr_plot.r out/2.segments.wt.V.txt 71 0 2 TRUE out/2.segments.wt.V.pdf
+null device 
+          1 
+[RUtil] Executing Rscript vexpr_plot.r out/2.segments.wt.J.txt 18 0 2 TRUE out/2.segments.wt.J.pdf
+null device 
+          1 
+[Tue Jan 08 15:00:10 CST 2019 CalcSegmentUsage] Finished
+Executing com.antigenomics.vdjtools.basic.CalcSegmentUsage -m metadata.txt -p -f tag1 -n out/2
+[Tue Jan 08 15:00:37 CST 2019 CalcSegmentUsage] Reading samples
+[Tue Jan 08 15:00:37 CST 2019 CalcSegmentUsage] 12 samples loaded
+[Tue Jan 08 15:00:37 CST 2019 SampleStreamConnection] Loading sample GD1
+[Tue Jan 08 15:00:38 CST 2019 ClonotypeStreamParser] Finished parsing 8650 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 15:00:38 CST 2019 SampleStreamConnection] Loaded sample GD1 with 8650 clonotypes and 53733366 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 15:00:38 CST 2019 SegmentUsage] Processing sample GD1
+[Tue Jan 08 15:00:38 CST 2019 SampleStreamConnection] Loading sample GD2
+[Tue Jan 08 15:00:38 CST 2019 ClonotypeStreamParser] Finished parsing 8615 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 15:00:38 CST 2019 SampleStreamConnection] Loaded sample GD2 with 8615 clonotypes and 50736421 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 15:00:38 CST 2019 SegmentUsage] Processing sample GD2
+[Tue Jan 08 15:00:38 CST 2019 SampleStreamConnection] Loading sample GD3
+[Tue Jan 08 15:00:38 CST 2019 ClonotypeStreamParser] Finished parsing 4292 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 15:00:38 CST 2019 SampleStreamConnection] Loaded sample GD3 with 4292 clonotypes and 26548648 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 15:00:38 CST 2019 SegmentUsage] Processing sample GD3
+[Tue Jan 08 15:00:38 CST 2019 SampleStreamConnection] Loading sample GD4
+[Tue Jan 08 15:00:38 CST 2019 ClonotypeStreamParser] Finished parsing 5937 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 15:00:38 CST 2019 SampleStreamConnection] Loaded sample GD4 with 5937 clonotypes and 38819349 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 15:00:38 CST 2019 SegmentUsage] Processing sample GD4
+[Tue Jan 08 15:00:38 CST 2019 SampleStreamConnection] Loading sample GD5
+[Tue Jan 08 15:00:39 CST 2019 ClonotypeStreamParser] Finished parsing 6529 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 15:00:39 CST 2019 SampleStreamConnection] Loaded sample GD5 with 6529 clonotypes and 43870338 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 15:00:39 CST 2019 SegmentUsage] Processing sample GD5
+[Tue Jan 08 15:00:39 CST 2019 SampleStreamConnection] Loading sample GD6
+[Tue Jan 08 15:00:39 CST 2019 ClonotypeStreamParser] Finished parsing 4986 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 15:00:39 CST 2019 SampleStreamConnection] Loaded sample GD6 with 4986 clonotypes and 33401892 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 15:00:39 CST 2019 SegmentUsage] Processing sample GD6
+[Tue Jan 08 15:00:39 CST 2019 SampleStreamConnection] Loading sample GD7
+[Tue Jan 08 15:00:39 CST 2019 ClonotypeStreamParser] Finished parsing 8729 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 15:00:39 CST 2019 SampleStreamConnection] Loaded sample GD7 with 8729 clonotypes and 63780195 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 15:00:39 CST 2019 SegmentUsage] Processing sample GD7
+[Tue Jan 08 15:00:39 CST 2019 SampleStreamConnection] Loading sample GD8
+[Tue Jan 08 15:00:40 CST 2019 ClonotypeStreamParser] Finished parsing 9568 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 15:00:40 CST 2019 SampleStreamConnection] Loaded sample GD8 with 9568 clonotypes and 65208312 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 15:00:40 CST 2019 SegmentUsage] Processing sample GD8
+[Tue Jan 08 15:00:40 CST 2019 SampleStreamConnection] Loading sample GD9
+[Tue Jan 08 15:00:40 CST 2019 ClonotypeStreamParser] Finished parsing 7843 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 15:00:40 CST 2019 SampleStreamConnection] Loaded sample GD9 with 7843 clonotypes and 62099127 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 15:00:40 CST 2019 SegmentUsage] Processing sample GD9
+[Tue Jan 08 15:00:40 CST 2019 SampleStreamConnection] Loading sample GD10
+[Tue Jan 08 15:00:40 CST 2019 ClonotypeStreamParser] Finished parsing 9292 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 15:00:40 CST 2019 SampleStreamConnection] Loaded sample GD10 with 9292 clonotypes and 69651177 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 15:00:40 CST 2019 SegmentUsage] Processing sample GD10
+[Tue Jan 08 15:00:40 CST 2019 SampleStreamConnection] Loading sample GD11
+[Tue Jan 08 15:00:41 CST 2019 ClonotypeStreamParser] Finished parsing 6918 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 15:00:41 CST 2019 SampleStreamConnection] Loaded sample GD11 with 6918 clonotypes and 35440202 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 15:00:41 CST 2019 SegmentUsage] Processing sample GD11
+[Tue Jan 08 15:00:41 CST 2019 SampleStreamConnection] Loading sample GD12
+[Tue Jan 08 15:00:41 CST 2019 ClonotypeStreamParser] Finished parsing 8120 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 15:00:41 CST 2019 SampleStreamConnection] Loaded sample GD12 with 8120 clonotypes and 56539948 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 15:00:41 CST 2019 SegmentUsage] Processing sample GD12
+[RUtil] Executing Rscript vexpr_plot.r out/2.segments.wt.V.txt 77 0 2 TRUE out/2.segments.wt.V.pdf
+null device 
+          1 
+[RUtil] Executing Rscript vexpr_plot.r out/2.segments.wt.J.txt 19 0 2 TRUE out/2.segments.wt.J.pdf
+null device 
+          1 
+[Tue Jan 08 15:02:56 CST 2019 CalcSegmentUsage] Finished
+Executing com.antigenomics.vdjtools.basic.CalcSegmentUsage -m metadata.txt -p -f tag1 -n out/2
+[Tue Jan 08 15:03:02 CST 2019 CalcSegmentUsage] Reading samples
+[Tue Jan 08 15:03:04 CST 2019 CalcSegmentUsage] 6 samples loaded
+[Tue Jan 08 15:03:04 CST 2019 SampleStreamConnection] Loading sample NC1
+[Tue Jan 08 15:03:05 CST 2019 ClonotypeStreamParser] Finished parsing 3558 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 15:03:05 CST 2019 SampleStreamConnection] Loaded sample NC1 with 3558 clonotypes and 12188019 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 15:03:05 CST 2019 SegmentUsage] Processing sample NC1
+[Tue Jan 08 15:03:05 CST 2019 SampleStreamConnection] Loading sample NC2
+[Tue Jan 08 15:03:06 CST 2019 ClonotypeStreamParser] Finished parsing 6577 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 15:03:06 CST 2019 SampleStreamConnection] Loaded sample NC2 with 6577 clonotypes and 44161709 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 15:03:06 CST 2019 SegmentUsage] Processing sample NC2
+[Tue Jan 08 15:03:06 CST 2019 SampleStreamConnection] Loading sample NC3
+[Tue Jan 08 15:03:07 CST 2019 ClonotypeStreamParser] Finished parsing 2805 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 15:03:07 CST 2019 SampleStreamConnection] Loaded sample NC3 with 2805 clonotypes and 15706632 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 15:03:07 CST 2019 SegmentUsage] Processing sample NC3
+[Tue Jan 08 15:03:07 CST 2019 SampleStreamConnection] Loading sample NC4
+[Tue Jan 08 15:03:08 CST 2019 ClonotypeStreamParser] Finished parsing 4506 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 15:03:08 CST 2019 SampleStreamConnection] Loaded sample NC4 with 4506 clonotypes and 20071822 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 15:03:08 CST 2019 SegmentUsage] Processing sample NC4
+[Tue Jan 08 15:03:08 CST 2019 SampleStreamConnection] Loading sample NC5
+[Tue Jan 08 15:03:09 CST 2019 ClonotypeStreamParser] Finished parsing 7521 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 15:03:09 CST 2019 SampleStreamConnection] Loaded sample NC5 with 7521 clonotypes and 49630092 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 15:03:09 CST 2019 SegmentUsage] Processing sample NC5
+[Tue Jan 08 15:03:09 CST 2019 SampleStreamConnection] Loading sample NC6
+[Tue Jan 08 15:03:09 CST 2019 ClonotypeStreamParser] Finished parsing 5323 lines. 1 header and 0 bad line(s) were skipped. Bad line statistics: NO_CDR3NT=0, NO_CDR3AA=0, NO_V=0, NO_J=0, ZERO_COUNT=0, ZERO_FREQ=0, BAD_LINE=0
+[Tue Jan 08 15:03:09 CST 2019 SampleStreamConnection] Loaded sample NC6 with 5323 clonotypes and 31348049 cells. Memory usage: 1 of 8 GB
+[Tue Jan 08 15:03:09 CST 2019 SegmentUsage] Processing sample NC6
+[RUtil] Executing Rscript vexpr_plot.r out/2.segments.wt.V.txt 67 0 2 TRUE out/2.segments.wt.V.pdf
+null device 
+          1 
+[RUtil] Executing Rscript vexpr_plot.r out/2.segments.wt.J.txt 18 0 2 TRUE out/2.segments.wt.J.pdf
+null device 
+          1 
+[Tue Jan 08 15:05:07 CST 2019 CalcSegmentUsage] Finished

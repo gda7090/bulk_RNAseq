@@ -1,0 +1,7 @@
+#file.name	sample.id	tag1
+HT1.specifc.clones.txt	HT1	HT1
+HT2.specifc.clones.txt	HT2	HT2
+HT3.specifc.clones.txt	HT3	HT3
+HT4.specifc.clones.txt	HT4	HT4
+HT5.specifc.clones.txt	HT5	HT5
+HT6.specifc.clones.txt	HT6	HT6

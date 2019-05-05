@@ -1,0 +1,13 @@
+#file.name	sample.id	tag1
+GD1.specifc.clones.txt	GD1	GD1
+GD2.specifc.clones.txt	GD2	GD2
+GD3.specifc.clones.txt	GD3	GD3
+GD4.specifc.clones.txt	GD4	GD4
+GD5.specifc.clones.txt	GD5	GD5
+GD6.specifc.clones.txt	GD6	GD6
+GD7.specifc.clones.txt	GD7	GD7
+GD8.specifc.clones.txt	GD8	GD8
+GD9.specifc.clones.txt	GD9	GD9
+GD10.specifc.clones.txt	GD10	GD10
+GD11.specifc.clones.txt	GD11	GD11
+GD12.specifc.clones.txt	GD12	GD12

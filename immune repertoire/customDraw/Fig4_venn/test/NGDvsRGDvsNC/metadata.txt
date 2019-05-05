@@ -1,0 +1,4 @@
+#file.namesample.idtag1
+NGD.specifc.clones.txtNGDNGD
+RGD.specifc.clones.txtRGDRGD
+NC.specifc.clones.txtNCNC
