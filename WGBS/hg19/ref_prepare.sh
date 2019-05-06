@@ -1,4 +1,4 @@
-#perl FA_GTF_GO_check.pl -fa Mus_musculus/Ensemble_GRCm38.82/WGBS/Mus_musculus.GRCm38.dna.chr_only.fa -gtf /BJPROJ/RNA/reference_data/Animal/Mus_musculus/Ensemble_GRCm38.82/WGBS/Mus_musculus.GRCm38.82.chr_only.gtf -go Mus_musculus/Ensemble_GRCm38.82/WGBS/gene.Mus_musculus.GRCm38.82.chr_only.go
+#perl FA_GTF_GO_check.pl -fa Mus_musculus/Ensemble_GRCm38.82/WGBS/Mus_musculus.GRCm38.dna.chr_only.fa -gtf Mus_musculus/Ensemble_GRCm38.82/WGBS/Mus_musculus.GRCm38.82.chr_only.gtf -go Mus_musculus/Ensemble_GRCm38.82/WGBS/gene.Mus_musculus.GRCm38.82.chr_only.go
 
 
 #check=`grep "Error" Mus_musculus/Ensemble_GRCm38.82/WGBS/0.log/ref_prepare_o*.txt`

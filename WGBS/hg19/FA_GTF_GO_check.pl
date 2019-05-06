@@ -129,8 +129,7 @@ while(<GTF>)
 	}
 }
 
-#my $go_pl="/PROJ/RNA/share/RefRNA/TransRef/Format/delGOduplication.pl";
-my $go_pl="/PUBLIC/source/RNA/RefRNA/TransRef/Format/delGOduplication.pl";
+my $go_pl="delGOduplication.pl";
 my %hash;
 my $goline=0;
 while(<GO>){

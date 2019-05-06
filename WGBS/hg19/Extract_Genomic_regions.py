@@ -67,7 +67,7 @@ print("chr_lengths produced!", file=sys.stderr)
 
 
 ## * ####################### get guoyang's functions #######################
-# /PUBLIC/source/RNA/DNA_Methylation/Model/DMR/annotation_region_v2.py
+#DMR/annotation_region_v2.py
 
 def order_iv2(ls, strand="+"):              # sort iv by start_d
     return sorted(ls, key = lambda x:(x.start_d, x.end_d), reverse = (strand != "+"))
@@ -489,8 +489,8 @@ def workflow1(file1, test=None):
 def workflow2(file1, test=None):
     gtf_filename = "%s/%s.gtf" % (outdir, basename(file1))
     if not isfile(gtf_filename):
-        assert not os.system("/PUBLIC/software/RNA/cufflinks-2.1.1/gffread -E %s -T -F -o- > %s.gffread.out" % (file1, gtf_filename))
-        assert not os.system("python /BJPROJ/RNA/zhaomeng/PROJ_RNA_zhaomeng_backup/Scripts/program-related/Methy/simplify_gtf.py %s.gffread.out > %s" % (gtf_filename, gtf_filename))
+        assert not os.system("cufflinks-2.1.1/gffread -E %s -T -F -o- > %s.gffread.out" % (file1, gtf_filename))
+        assert not os.system("python simplify_gtf.py %s.gffread.out > %s" % (gtf_filename, gtf_filename))
     assert isfile(gtf_filename)
     workflow1(gtf_filename, test)
     

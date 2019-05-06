@@ -27,7 +27,7 @@ option_list <- list(
 opt<-parse_args(OptionParser(usage="%prog [options]\n", option_list=option_list))
 prog <- sub("--file=", "", grep("--file=", commandArgs(), value = TRUE)[1])
 if(is.null(opt$qsigr1)){
-  system(paste("/NJPROJ2/MICRO/PROJ/yangfenglong/software/miniconda3/lib/R/bin/Rscript ",prog," -h"))
+  system(paste("miniconda3/lib/R/bin/Rscript ",prog," -h"))
   quit("no")
 }
 #################################################################################################
